@@ -77,7 +77,7 @@
 	text-align: center;
 	font-size: 18px;
     max-width: 50vh; /* this could be any value that you want */
-	height:70vh; /* the same value */
+	height:75vh; /* the same value */
     border-radius: 25px;
 }
 
@@ -119,38 +119,29 @@ img{
 	color: black;
 }
 
-@media (max-width: 600) {
-	.btn, .btn-n{
-	    max-height: 70px;
-    	max-width: 70px;
-	}
-	.calc{
-		height:80vh; /* the same value */
-	}
-
-	
-}
-
-@media screen and (max-width: 992px) {
-		.btn, .btn-n{
-			max-height: 70px;
-			max-width: 70px;
-		}
-		.calc{
-			height:80vh; /* the same value */
-		}
-  }
 
 
-  @media screen and (max-width: 1800px) {
+@media screen and  (max-width: 600px) {
 	.btn, .btn-n{
 		max-height: 70px;
 		max-width: 70px;
 	}
 	.calc{
-		height:70vh; /* the same value */
+		height:90vh; /* the same value */
 	}
 }
+
+
+@media screen and  (max-width: 992px) {
+	.btn, .btn-n{
+		max-height: 70px;
+		max-width: 70px;
+	}
+	.calc{
+		height:90vh; /* the same value */
+	}
+}
+
 ::-webkit-scrollbar {
 	width: 20px;
   }
